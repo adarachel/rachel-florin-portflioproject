@@ -1,12 +1,60 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Personal Portfolio Project - Rachel & Florin </title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    <h1>Hello we are programmers</h1>
+    <main id="welcome-section">
+        <h5>Rachel & Florin</h1>
+            <p>
+        <h6> Web Developers!</h6> </p>
+    </main>
+    <section id="projects">
+        <div class="section-title">Projects</div>
+        <div class="project-tile">
+            <div>
+                <iframe src="https://github.com/adarachel/rachel-florin-portflioproject.git"></iframe>
+                <a href="https://github.com/adarachel/rachel-florin-portflioproject.git">Open</a>
+            </div>
+            <header class="project-title">Portfolio Project</header>
+        </div>
+        <div class="project-tile">
+            <div>
+                <iframe src="https://github.com/RashidMenhas/RashidMenhas-AdaRachel-surveyform.git"></iframe>
+                <a href="https://github.com/RashidMenhas/RashidMenhas-AdaRachel-surveyform.git">Open</a>
+            </div>
+            <header class="project-title">Survey Form Project</header>
+        </div>
+    </section>
+    <section id="contact-section">
+        <div class="section-title">Contact</div>
+        <form method="POST" action="https://formspree.io/adarachelofficial@gmail.com">
+            <div><input type="text" name="fullName" placeholder="ENTER YOUR FULL NAME..." size="50" required> </div>
+            <div><input type="email" name="emailID" placeholder="ENTER YOUR EMAIL ADDRESS..." size="50" required> </div>
+            <div><textarea name="messageSubject" placeholder="subject" rows="4" cols="50"></textarea>
+                <div><textarea name="message" placeholder="ENTER YOUR MESSAGE..." rows="5" cols="40"></textarea> </div>
+                <div><button type="submit">SUBMIT</button></div>
+        </form>
+    </section>
+    <footer class="footer">
+        <div><a href="https://github.com/adarachel" target="_blank" id="profile-link"><i>VISIT GITHUB PROFILE</i></a>
+        </div>
+        <div class="footer-copy"></div>
+    </footer>
+    <nav id="navbar">
+        <a href="#welcome-section">ABOUT US</a>
+        <a href="#projects">OUR PROJECTS</a>
+        <a href="#contact-section">CONTACT US</a>
+    </nav>
+
+    <script type="text/javascript" src="https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js"></script>
+
 </body>
+
 </html>
